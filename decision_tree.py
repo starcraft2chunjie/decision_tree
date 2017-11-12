@@ -11,8 +11,8 @@ import numpy as np
 import pandas as pd
 import operator as op
 
-trainData = pd.read_csv('Titanic/train.csv')
-testData = pd.read_csv('Titanic/test.csv')
+trainData = pd.read_csv('train.csv')
+testData = pd.read_csv('test.csv')
 
 #drop some data class
 trainData = trainData.drop(['Cabin'], axis = 1)
